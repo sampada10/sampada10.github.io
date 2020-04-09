@@ -232,6 +232,10 @@ body {
     top: 2%;
 }
 
+.mobile {
+    display: none;
+}
+
 @media only screen and (max-width: 1000px) {
     .wish {
         width: 69%;
@@ -262,5 +266,24 @@ body {
     }
     .icing {
         width: 337px;
+    }
+    .mobile {
+        position: absolute;
+        bottom: 5%;
+        background: #002366;
+        color: #fff;
+        display: block;
+        /* padding: 2%; */
+    }
+    p.quote {
+        font-size: 49px;
+        max-width: 85%;
+        padding: 2%;
+        margin-left: 5%;
+    }
+    img.p-icon {
+        width: 126px;
+        position: absolute;
+        right: 120px;
     }
 }
